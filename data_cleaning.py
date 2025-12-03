@@ -11,6 +11,13 @@ col_keeping = ['baseline value', 'accelerations', 'fetal_movement', 'uterine_con
 df = df[col_keeping]
 print(df.columns) 
 
+# replacing any 'fetal_heath' of 3 to 2
+# we are only have two classification groups to make the models simpler
+df['fetal_health'] = df['fetal_health'].replace(3.0, 2.0)
+
+# verify that the replacement worked
+print("Fetal_health unique values:", df['fetal_health'].unique())
+
 # train test splitting the data 
 train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
 
