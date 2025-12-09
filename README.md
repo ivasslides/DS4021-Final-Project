@@ -20,7 +20,7 @@ Parts to do:
     - Model 1 person
 2. Descriptive analysis
     - Iliana 
-3. Penalized linear model  
+3. Penalized regression model  
     - Model 1 person
 4. Support Vector Machine
     - Model 1 person
