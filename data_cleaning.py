@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # loading csv file into dataframe
-df = pd.read_csv('fetal_health.csv')
+df = pd.read_csv('./Data/fetal_health.csv')
 
 # only keeping relevant columns 
 col_keeping = ['baseline value', 'accelerations', 'fetal_movement', 'uterine_contractions', 'light_decelerations', 'severe_decelerations',
@@ -17,6 +17,9 @@ df['fetal_health'] = df['fetal_health'].replace(3.0, 2.0)
 
 # verify that the replacement worked
 print("Fetal_health unique values:", df['fetal_health'].unique())
+
+# save cleaned df to csv file 
+df.to_csv('./Data/cleaned_fetal_health.csv', index=False)
 
 # train test splitting the data 
 train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
