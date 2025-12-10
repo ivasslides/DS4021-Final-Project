@@ -1,4 +1,4 @@
-baseline value,accelerations,fetal_movement,uterine_contractions,light_decelerations,severe_decelerations,prolongued_decelerations,abnormal_short_term_variability,mean_value_of_short_term_variability,percentage_of_time_with_abnormal_long_term_variability,mean_value_of_long_term_variability,fetal_health
+baseline_value,accelerations,fetal_movement,uterine_contractions,light_decelerations,severe_decelerations,prolongued_decelerations,abnormal_short_term_variability,mean_value_of_short_term_variability,percentage_of_time_with_abnormal_long_term_variability,mean_value_of_long_term_variability,fetal_health
 133.0,0.002,0.01,0.003,0.002,0.0,0.0,46.0,1.1,0.0,15.4,1.0
 125.0,0.0,0.001,0.009,0.008,0.0,0.0,62.0,1.7,0.0,1.1,1.0
 131.0,0.004,0.003,0.004,0.005,0.0,0.001,60.0,2.1,0.0,0.9,1.0
