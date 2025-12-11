@@ -22,6 +22,7 @@ A repository for our DS 4021 Final Project: predicting fetal health status using
     - GradientBoosting.ipynb
     - NN.ipynb
   - Outputs
+    - cv_table_eval.pdf
     - comparison_scatterplots.png
     - descriptive_stats_table.png
     - feature_histograms.png
