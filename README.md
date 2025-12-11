@@ -1,5 +1,5 @@
 # DS4021-Final-Project
-A repository for our DS 4021 Final Project: predicting fetal health status using Binary Model Classification.  
+A repository for our DS 4021 Final Project: predicting fetal health status using four different machine learning models.  
 
 ## Contents of Repository 
 - ### Software and Platform Selection
@@ -24,9 +24,16 @@ A repository for our DS 4021 Final Project: predicting fetal health status using
   - Outputs
     - comparison_scatterplots.png
     - descriptive_stats_table.png
+    - feature_histograms.png
     - fetal_health_distribution.png
+    - final_eval_confusion_matrix.png
+    - gb_confusion_matrix.png
+    - gb_feature_importance.png
+    - nn_confusion_matrix.png
+    - nn_hyperparameter_comparison.png
     - pen_regression_confusion_matrix.png
     - SVM_confusion_matrix.png
+    - violin_plots.png
   - .gitignore
   - data_cleaning.py
   - data_description.py
